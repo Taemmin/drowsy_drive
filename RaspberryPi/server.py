@@ -240,7 +240,7 @@ def vibe():
 servo = Servo(18)
 ser = serial.Serial('/dev/serial0', baudrate=9600, timeout=1)
 
-socket Android_socket = None
+Android_socket = None
 
 global window_open
 window_open = False
